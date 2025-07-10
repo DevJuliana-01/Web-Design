@@ -5,7 +5,26 @@
 }
 
 header{
-    display: flex;
+    padding: 1em;
     background-image: linear-gradient(#72CFED, #186C86);
-    padding-bottom: 1em;
 }
+
+nav h1 img{
+    margin-left: 2em;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 50em;
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+section div{
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    border: 1px solid black;
+    
+}
+
