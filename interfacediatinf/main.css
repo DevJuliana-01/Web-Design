@@ -6,22 +6,24 @@
 
 body{
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
-    margin-left: 1em;
+    margin-left: 0.5em;
 }
 
-h2{
+header h2{
     color: white;
     margin-left: 1em;
+    font-size: 14px;
+}
+
+p{
+    font-size: 14px;
 }
 
 header{
-    display: block;
     background-color: rgb(5, 116, 92);  
-    width: 13rem;
     padding: 2rem;
     height: 70rem;
 }
@@ -33,9 +35,50 @@ header nav{
 }
 
 main{
-    margin-left: 15rem;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
+   margin-top: 2em ;
+   margin-left: 2em;
 }
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 70rem;
+}
+
+.relatorios{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.relatorios h2{
+    flex-basis: 100%;
+
+}
+
+.relatorios section{
+    background-color: white;
+    width: 10em;
+    height: 11em;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.relatorios h3{
+    background-color: gainsboro;
+    height: 6em;
+    padding: 1em;
+}
+
+.relatorios figure{
+    padding: 1em;
+}
+
+.relatorios img{
+    padding: 4px;
+}
+
+
 
