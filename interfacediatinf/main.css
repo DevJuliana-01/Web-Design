@@ -42,13 +42,13 @@ main{
 .form{
     display: flex;
     justify-content: space-between;
-    width: 70rem;
+    max-width: 70rem;
 }
 
 .relatorios{
     display: flex;
     flex-wrap: wrap;
-    width: 60rem;
+    max-width: 60rem;
     gap: 2em;
     margin-top: 1em;
 }
