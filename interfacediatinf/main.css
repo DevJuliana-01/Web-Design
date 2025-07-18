@@ -42,7 +42,7 @@ main{
 .form{
     display: flex;
     justify-content: space-between;
-    max-width: 70rem;
+    max-width: 80rem;
 }
 
 .relatorios{
