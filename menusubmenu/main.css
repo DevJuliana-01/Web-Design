@@ -5,19 +5,6 @@
     font-size: 22px;
 }
 
-.subitem1{
-    background-color: antiquewhite;
-    display: none;
-}
-
-nav ul li:hover .subitem1{
-    display: block;
-    position: absolute;
-    padding: 1.2em;
-    background-color: rgb(30, 172, 172);
-
-}
-
 header{
     margin-top: 0.5em;
 }
@@ -37,4 +24,25 @@ ul li{
 ul li a {
     color: white;
 }
+
+.menu{
+    position: relative;
+}
+
+.submenu{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.menu:hover{
+    .submenu{
+        visibility: visible;
+    }
+}
+
 
