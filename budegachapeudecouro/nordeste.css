@@ -20,68 +20,56 @@ p{
     font-size: 16px;
 }
 
+
 header{
     display: flex;
-    align-items: flex-start;
-    gap: 11em;
+    justify-content: space-between;
     border-bottom: solid 1px black;
 }
-
 h1{
     margin-left: 2em;
 }
-
 h1 img{
     width: 70%;
 }
-
 header figure{
     margin-right: 2em;
 }
-
 header figure img{
     width: 80%;
 }
-
 nav{ 
     margin-top: 3em;
 }
-
 nav ol li{
     display: inline-block;
-    align-items: center;
     margin-right: 5em;
 }
-
 ol li a{
     text-decoration: none;
     font-family: "Frijole", system-ui;
-    font-size: 16px;
+    font-size: 15px;
     color: black;
 }
-
 ol li a:hover{
     font-weight: bolder;
     border-bottom: solid 3px #B05520;
 }
 
+
 .secao1{
     margin-top: 2em;
     text-align: center;
 }
-
-
-section{
-    margin-top: 3em;
-    margin-left: 10em;
-    margin-right: 10em;
-}
-
-section ul{
+.secao2, .secao3{
     display: flex;
     align-items: center;
     gap: 2em;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 3em;
 }
+
 
 article{
     margin-top: 4em;
@@ -89,99 +77,95 @@ article{
     margin-right: 3em;
 }
 
+
 .cardapio {
     display: flex;
     align-items: flex-start;
     gap: 5em;
     text-align: left;
 }
-
 .cardapio li{
     border: 10px solid #B05520;
     border-radius: 10px;
     background-color: #B05520;
     
 }
-
 .cardapio li p{
     font-weight: 600;
     color: white;
 }
-
 .cardapio li img, .cardapio li p{
     background-color: #B05520;
 }
 
+
 aside{ 
     margin-top: 7em;
     display: flex;
-    align-items: flex-start;
-    gap: 11em;
     align-items: center;
 }
-
 aside figure img{
-    width: 120%;
+    position: relative;
+    z-index: 1;
     margin-left: 3em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
 }
-
 aside h2{
+    text-align: right;
+    position: absolute;
     background-color: #B05520;
     width: 100%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 2em;
+    padding: 2em;
     color: white;
     font-size: 24px;
     border-radius: 10px;
-    border: solid 1px #B05520;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
 }
+
 
 .historia {
     margin-left: 20em;
     margin-right: 20em;
-    justify-content: center;
     text-align: center;
     background-color: #B05520;
     border-radius: 10px;
-    border: solid #B05520 15px;
-    margin-top: 7em;
+    margin-bottom: 5em;
+    padding: 1em;
 }
-
 .historia h2, .historia p{
     background-color: #B05520;
     color: white;
 }
+
 
 .contato{
     margin-top: 3em;
     margin-left: 25em;
     margin-right: 25em;
 }
-
 .contato li{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0.5em;
     margin-top: 2em;
     background-color: #B05520;
-    border-radius: 10px;
-    border: solid #B05520 5px;
+    border-radius: 25px;
 }
-
 .contato li img, .contato li p{
     background-color: #B05520;
     color: white;
 
 }
 
+
 footer{
     margin-top: 2em;
 }
-
-footer address{
+footer p{
     background-color: #B05520;
+    color: white;
     padding-bottom: 2em;
     text-align: center;
-    font-weight: bold;
 }
